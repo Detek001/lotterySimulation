@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottospiel</title>
+    <link href="style_result.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap" rel="stylesheet">
+    <script src="script_result.js"></script>
+    <script src="https://kit.fontawesome.com/285084d7cb.js" crossorigin="anonymous"></script>
+    <link rel="manifest" type="application/manifest+json" href="manifest.webmanifest">
+    <!--IOS-Support-->
+    <link rel="apple-touch-icon" href="img/lotto_128.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+</head>
+<body onload="calculateWin()">
+    <div id="container">
+        <h1>Gewinnzahlen</h1>
+        <table>
+            <tr>
+                <td class="winNums"></td>
+                <td class="winNums"></td>
+                <td class="winNums"></td>
+                <td class="winNums"></td>
+                <td class="winNums"></td>
+                <td class="winNums"></td>
+            </tr>
+            <tr>
+                <td id="sNum"></td>
+            </tr>
+        </table>
+        <div id="win">
+            <p>Gewinnsumme: </p>
+            <p id="winSum"></p>
+        </div>
+        <div id="buttonContainer">
+            <button onclick="newNums()"  class="fas fa-step-backward"></button>
+            <button onclick="calculateWin()" class="fas fa-redo"></button> 
+        </div>
+        
+
+    </div>
+    
+</body>

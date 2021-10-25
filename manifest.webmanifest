@@ -1,0 +1,27 @@
+{
+    "name": "Lottosimulation",
+    "short_name": "Lottosimulation",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ecec0f",
+    "theme_color": "#ecec0f",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/img/lotto_128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/img/lotto_256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/img/lotto_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+
+    ]
+}
