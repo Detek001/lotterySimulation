@@ -16,7 +16,6 @@ body, html {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 #head {
@@ -52,6 +51,5 @@ body, html {
     #circle {
         font-size: 2.8rem;
         padding: 25px;
-    } 
-    
+    }  
 }
