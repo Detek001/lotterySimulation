@@ -10,6 +10,7 @@ function appendNumbers(number) {
             document.getElementsByTagName("TD") [number-1].innerHTML = number;      
     } else {
         if (numbers.length == 6){  //This is to ensure that the player can't select more than 6 numbers
+             alert("Sie haben bereits alle Zahlen gewählt");
             return numbers;
         } else {
             numbers.push(number);
