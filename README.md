@@ -2,12 +2,12 @@
 
 Hello everyone,
 
-this is my first Web App. I created a lottery Simulation.
+this was my first project. I really enjoyed it. 
 
 Start:
 To start the App you need to open the index.html file.
 
-I hope you enjoy it.
+I hope you enjoy it to.
 
 Kind regards
 Detek001
