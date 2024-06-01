@@ -5,7 +5,7 @@ Hello everyone,
 this was my first project. I really enjoyed it. 
 
 Start:
-To start the App you need to open the index.html file.
+Open https://detek001.github.io/lotterySimulation/
 
 I hope you enjoy it to.
 
